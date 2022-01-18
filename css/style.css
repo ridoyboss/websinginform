@@ -1,0 +1,113 @@
+.registation_form{
+    width: 960px;
+    height: 100vh;
+    background-color:#F8F8F8 ;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body h1 h2 h3 h4 h5 h6 p a{
+    font-family: 'Rubik', sans-serif;
+}
+.registation_code{
+    width: 750px;
+    background-color: white;
+    padding: 80px 50px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.left img{
+    display: block;
+    margin-bottom: 33px;
+
+}
+.left a{
+    display: block;
+  text-align: center;
+  font-weight: 100;
+}
+.icon_right{
+    flex-basis: 50%;
+}
+.icon_right{
+    flex-basis: 50%;
+}
+.icon_right h2{
+    font-size: 32px;
+    margin-bottom:32px;
+    color: #00008B;
+}
+.from_controls {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px 0px 10px 30px;
+    border: none;
+    border-bottom: 1px solid gray;
+  
+}
+span{
+    margin-top: 50px;
+    margin-right: 10px;
+    
+}
+.icone_code{
+    margin-top:90px;
+}
+.icone_code a .fa-facebook{
+    background-color:#385898;;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-left: 7px;
+    border-radius: 100%;
+    color: white;
+}
+.icone_code a .fa-twitter{
+    background-color:#6dabe4;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 100%;
+    margin-left: 7px;
+}
+.icone_code a .fa-whatsapp{
+    background-color:tomato;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 100%;
+    margin-left: 7px;
+}
+.form_code{
+    position: relative;
+}
+.from-icon{
+    position: absolute;
+    top:12px;
+    left: 0px;
+}
+.from_controls:focus{
+    color: white;
+    background-color: skyblue;
+
+}
+.button_btn{
+    display: block;
+
+}
+    .button_btn{
+        background-color:#00008B;
+        color: white;
+        margin-top: 32px;
+        padding: 12px 30px;
+        border-radius: 6px;
+        cursor: pointer;
+        border: none;
+    }
